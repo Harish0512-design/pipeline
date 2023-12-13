@@ -1,0 +1,15 @@
+{
+  "MONGODB_CONFIGURATION": {
+    "CONNECTION_STRING": "mongodb://localhost:27017",
+    "DATABASE": "mydb_mdb"
+  },
+  "POSTGRES_CONFIGURATION": {
+    "CONNECTION_URL": "postgresql://username:password@localhost:5432/mydb_pgs"
+  },
+  "URLS_AND_COLLECTIONS": {
+    "ELECTRIC_VEHICLES": {
+      "URL": "https://data.wa.gov/api/views/f6w7-q2d2/rows.json?accessType=DOWNLOAD",
+      "COLLECTION": "electric_vehicles"
+    }
+  }
+}
